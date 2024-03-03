@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Madimi+One&display=swap');
+*{
+    margin: 0;
+    padding:0;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.header{
+    width:100%;
+    height:100vh;
+    background: url(images/wall-21534_1280.jpg);
+}
+#userimage{
+    width:30%;
+    margin:15px;
+
+}
+ul{
+    list-style:none;
+}
+ul li img{
+    width:20%;
+    
+}
+ul li a{
+    margin: 30px;
+    color:white;
+    text-decoration:none;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    cursor:pointer;
+}
+
+.nav{
+    width:250px;
+    margin:10px;
+    height:100%;
+    position:fixed;
+    top:0;
+    left:0;
+    padding:30px 15px;
+    background:rgba(255,255,255,0.2);
+    backdrop-filter:blur(5px);
+    
+}
+.user{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    width:100%;
+    font-size:12px;
+    padding:10px;
+    border-radius: 5px;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+.user h3{
+    font-size:15px;
+    font-weight:600;
+    white-space:nowrap;
+    overflow:hidden;
+}
+.user img{
+    width:40px;
+    border-radius:50%;
+    margin: auto;
+}
+#Rankstar{
+    width:20px;
+}
+.footer{
+    color:azure
+}
+
